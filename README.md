@@ -1,5 +1,5 @@
 # Uzdevumi Unlocker
-Neliels un viegls Chrome paplašinājums, kas atklāj vietnē uzdevumi.lv iekļauto saturu, kurš var palikt paslēpts, ja ir aktivizēti reklāmu bloķētāji (ad-blockers) vai noraidīta piekrišana sīkdatņu izmantošanai (rejected cookies).
+Neliels un viegls Chrome paplašinājums, kas atklāj vietnē `uzdevumi.lv` iekļauto saturu, kurš var palikt paslēpts, ja ir aktivizēti reklāmu bloķētāji (ad-blockers) vai noraidīta piekrišana sīkdatņu izmantošanai (rejected cookies).
 
 ## Ko tas dara
 Šis paplašinājums rāda iegulto saturu, kas var būt paslēpts šādu iemeslu dēļ:
