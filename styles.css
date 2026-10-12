@@ -1,0 +1,24 @@
+/* Force-show iframes with high specificity */
+.iframe-container .blocked-iframe-placeholder {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.iframe-container iframe[data-cookieblock-src],
+.iframe-container iframe[src] {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Additional overrides for common hiding techniques */
+.iframe-container > div:not(:has(iframe)),
+.iframe-container .placeholder-wrapper {
+  display: none !important;
+}
+
+/* Ensure iframes can't be hidden by position tricks */
+.iframe-container iframe {
+  opacity: 1 !important;
+  transform: none !important;
+  pointer-events: all !important;
+}

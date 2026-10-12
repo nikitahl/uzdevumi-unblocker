@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Uzdevumi Unblocker",
+  "version": "1.0",
+  "description": "Shows hidden embeds on uzdevumi.lv",
+  "permissions": [],
+  "host_permissions": [
+    "https://*.uzdevumi.lv/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.uzdevumi.lv/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
