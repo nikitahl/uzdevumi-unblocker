@@ -12,7 +12,7 @@ Paplašinājums nodrošina, ka viss iegultais saturs tiek pareizi attēlots neat
 ## Instalēšana
 Tā kā šis paplašinājums netiks publicēts Chrome interneta veikalā, tas būs jāielādē manuāli.
 
-1. Lejupielādējiet vai klonējiet paplašinājuma failus savā datorā
+1. [Lejupielādējiet](https://github.com/nikitahl/uzdevumi-unblocker/archive/refs/heads/main.zip) vai [klonējiet](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) paplašinājuma failus savā datorā
 2. Atveriet Chrome un dodieties uz adresi `chrome://extensions/`
 3. Aktivizējiet **"Izstrādātāja režīmu"** (Developer mode), izmantojot slēdzi augšējā labajā stūrī
 4. Noklikšķiniet uz pogas **"Ielādēt neiepakotu"** (Load unpacked)
